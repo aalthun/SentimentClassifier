@@ -7,9 +7,3 @@ In this project, sentiment classification is performed using a custom Transforme
 Byte Pair Encoding (BPE) tokenization analyzes byte pairs in UTF-8 encoded text and merges the most frequent byte pairs throughout the text. This process accelerates model training and makes it more efficient. When tokenization is used, the model learns faster and more effectively.
 
 Without tokenization the training process becomes inefficient, and the training time increases significantly. Therefore applying tokenization properly is crucial for optimizing the training process.
-
-
-### **Additional Notes:**
-
-* You can further experiment with the Transformer architecture (e.g., adjusting the number of attention heads, encoder layers, etc.).
-* If you have a large dataset, consider using techniques like **gradient accumulation** or **mixed precision training** to optimize training speed.
